@@ -1,0 +1,84 @@
+<!Doctype html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <title>test page</title>
+            <meta name="description" content="this is our Book Store" />
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <form action="test.py" method="post" target="test.py">
+                <div>
+                   <div name="Username">
+                    <label>Username:</label> <br>
+                       <label>First name:</label> <br>
+                       <input type="text" required placeholder="اسم المسنخدم"> <br>
+                       <label>Last name:</label> <br>
+                       <input type="text" required placeholder="اسم المسنخدم">
+                </div>
+                   <hr>
+                   <div name="password" class="pass">
+                       <label>Password:</label> <br>
+                       <input type="password" required placeholder="كلمه السر" minlength="5" maxlength="20">
+                   </div>
+                   <hr>
+                   <div name="mobile">
+                       <label>Mobile:</label> <br>
+                       <input type="text" placeholder="123 (234) 20100+" minlength="6" maxlength="15">
+                   </div>
+                   <hr>
+                   <div name="Email">
+                       <label>Email:</label> <br>
+                       <input type="email" required placeholder="البريد الالكتروني الخاص بك">
+                   </div>
+                   <hr>
+                    <div name="nationality">
+                        <label>Country:</label> <br>
+                        <input type="text" required placeholder="type your country "> 
+                    </div>
+                    <hr>
+                   <div >
+                       <input type="submit" name="sub" value="Submit "> <br>
+                       <input type="reset" name="re" value="Delete all">
+                   </div>
+                   <hr>
+                  <div>
+                    <div>
+                        <p> <label for="sre"> Search :</label></p>
+                         <input type="search" name="ser" id="sre" placeholder="Enter A Search Word"  autofocus>
+                        </div>
+                        <div>
+                            <p><label>Choose :</label></p>
+                            <input type="file" >
+                        </div>
+                        <div>
+                         <p><label>Search URL :</label></p>
+                            <input type="url"required >
+                        </div>
+                      <p>
+                         <input type="reset" value="Empty" > 
+                         <input type="submit" value="OK" > 
+                      </p>
+                     </div>
+                     <hr>
+                     <div>
+                         <label>Date</label>
+                         <input type="date" >
+                     </div>
+                     <div>
+                        <p> <label>Month</label>
+                         <input type="month" >
+                     </p>
+                     </div>
+                     <div>
+                        <p>
+                            <input type="reset" value="Empty">
+                            <input type="submit" value="Save">
+                        </p>
+                       <div>
+                        <a href="https://www.google.com" target="_parent">google</a>
+                       </div>
+                     </div>
+                     <hr>
+        </body>
+    </html>
